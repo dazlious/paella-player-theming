@@ -7,7 +7,8 @@
   "homepage": "https://github.com/dazlious/paella-player-theming",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "npm update && grunt dev"
+    "start": "npm update && grunt dev",
+    "postinstall": "cd ./node_modules/paellaplayer && npm install && cd node_modules/gulp/bin && ./gulp.js build.release"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "autoprefixer": "^7.1.1",
     "cssnano": "^3.10.0",
     "grunt": "^1.0.1",
+    "paellaplayer": "git+https://github.com/polimediaupv/paella.git",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-postcss": "^0.8.0"
