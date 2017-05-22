@@ -1,0 +1,29 @@
+{
+  "name": "paella-player-theming",
+  "version": "0.0.1",
+  "author": "Michael Duve",
+  "email": "mduve@designmail.net",
+  "description": "Styling Paella Player",
+  "homepage": "https://github.com/dazlious/paella-player-theming",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "npm update && grunt dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dazlious/paella-player-theming.git"
+  },
+  "engines": {
+    "node": "7.10.0",
+    "npm": "4.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "cssnano": "^3.10.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0"
+  },
+  "dependencies": {}
+}

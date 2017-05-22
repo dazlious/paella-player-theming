@@ -1,1 +1,1 @@
-# paella-player-theming
+# Custom theming of Paella Player
