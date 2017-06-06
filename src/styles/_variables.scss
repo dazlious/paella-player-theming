@@ -1,0 +1,57 @@
+$fontFamily: Verdana, sans-serif;
+
+$linkColor: #636363;
+
+$linkHoverColor: #a4a4a4;
+
+$linkActiveColor: #3d3d3d;
+
+$mainColor: #fa8533;
+
+$playbackBarBackground: #fa8533;
+
+$playbackBarBackgroundInactive: #333333;
+
+$hoverBackgroundColor: #faa166;
+
+$backgroundColor: rgba(242, 242, 242, 0.78);
+
+$pageBackgroundColor: #fafafa;
+
+$shadowColor: #fa8533;
+
+$paella_icons_image: url(../../images/beuth-icons.png);
+
+$paella_icons_bkg_size: 2000% 1000%;
+
+$backgroundImage: none;
+
+$backgroundImageSize: auto;
+
+$icon_text_color: white;
+
+$popup_text_color: black;
+
+$playbackBarButtonSize: 10px;
+
+$playbackBarButtonPadding: 0px;
+
+$playbackControlHeight: 10px;
+
+$playbackBarFontSize: 6px;
+
+$playbackBarHeight: 30px;
+
+$playbackBarButtonHeight: $playbackBarButtonSize;
+
+$playbackBarButtonWidth: $playbackBarButtonSize;
+
+$playbackControlHeight: $playbackControlHeight + 2px;
+
+$playbackControlFullHeight: $playbackControlHeight;
+
+$playbackBarHeightPx: $playbackBarButtonSize + $playbackControlHeight + 2px;
+
+$playbackBarHeight: $playbackBarHeightPx + 2px;
+
+$playbackControlOuterHeight: $playbackControlHeight + 2px;
